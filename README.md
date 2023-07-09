@@ -2,6 +2,7 @@
 # Frontend Mentor - Calculator App (with theme effect)
 _Design by-_
 # Kaushal Mishra 😎 
+![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 **In this challenge I have used `HTML/CSS`, `JAVASCRIPT`, `GRID`, `FLEXBOX`, `MEDIA QUERRY` for mobile `responsiveness` and tried to
 ⚒build🛠 as shown in the bellow image.**
 
@@ -9,8 +10,6 @@ With Javascript,
 - Achieved theme change effect with the toggle switch.
 - Use events like onclick, onfocus, etc.
 - Use window object to show the focus in the input.
-
-![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
 There are many ways to host your project for free. recommend hosts are:
 
