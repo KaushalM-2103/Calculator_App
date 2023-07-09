@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="./css/reset.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/calculator_icon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor |  Calculator app</title>
+
+  </head>
+  <body class="theme1" id="themeSwitch">
+    <div class="calculator">
+      <div class="calc__header">
+        <h1 class="logo">calc</h1>
+
+        <div class="calc__body">
+          <h3 class="calc__heading">THEME</h3>
+
+          <div class="toggle">
+            <div class="toggle_numbers">
+              <p class=" tggl" id="tggl_1" onclick="toggle(this)">1</p>
+              <p class=" tggl" id="tggl_2" onclick="toggle(this)">2</p>
+              <p class=" tggl" id="tggl_3" onclick="toggle(this)">3</p>
+            </div>
+
+            <div class="toggle_switch">
+              <div class="slider_btn theme_1" id="tggl_1" onclick="toggle(this)"></div>
+              <div class="slider_btn theme_2" id="tggl_2" onclick="toggle(this)"></div>
+              <div class="slider_btn theme_3" id="tggl_3" onclick="toggle(this)"></div>
+              <div class="slider" id="togglebtn" onclick="toggle(this)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="calc__rslt">
+        <input type="text" class="rslt" id="result" />
+      </div>
+
+      <div class="calc__btns">
+        <div class="btns-container">
+          <div class="btns-row">
+            <p class="btns" onclick="appendNumber('7')">7</p>
+            <p class="btns" onclick="appendNumber('8')">8</p>
+            <p class="btns" onclick="appendNumber('9')">9</p>
+            <p class="btns btn__delete" onclick="deleteLastValue()">DEL</p>
+          </div>
+          <div class="btns-row">
+            <p class="btns" onclick="appendNumber('4')">4</p>
+            <p class="btns" onclick="appendNumber('5')">5</p>
+            <p class="btns" onclick="appendNumber('6')">6</p>
+            <p class="btns" onclick="apopendOperator('+')">+</p>
+          </div>
+          <div class="btns-row">
+            <p class="btns" onclick="appendNumber('1')">1</p>
+            <p class="btns" onclick="appendNumber('2')">2</p>
+            <p class="btns" onclick="appendNumber('3')">3</p>
+            <p class="btns" onclick="apopendOperator('-')">-</p>
+          </div>
+          <div class="btns-row">
+            <p class="btns" onclick="appendNumber('.')">.</p>
+            <p class="btns" onclick="appendNumber('0')">0</p>
+            <p class="btns" onclick="apopendOperator('/')">/</p>
+            <p class="btns" onclick="apopendOperator('*')">x</p>
+          </div>
+          <div class="btns-row-big">
+            <p class="btn__reset" onclick="clearResult()">RESET</p>
+            <p class="btn__equal" onclick="calculateAllResult()">=</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
