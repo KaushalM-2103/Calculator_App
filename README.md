@@ -21,7 +21,7 @@ There are many ways to host your project for free. recommend hosts are:
 
 ## Author
 
-- Website - [Calculator App](https://kaushalm-2103.github.io/testimonials-grid-section/)
+- Website - [Calculator App](https://calculator-app-amber-phi.vercel.app/)
 - Frontend Mentor - @KaushalM-2103
 - Linkedin - [kaushalmishra21](https://www.linkedin.com/in/kaushalmishra21/)
 
